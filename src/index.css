@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --bgColor: #f1f1e6;
+  --mainColor: #8c5252;
+  --secondColor: #cbc5ff;
+  --thirdColor: #d292ac;
+  --darkGrey: #1e1e1e;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,500;1,900&family=Quicksand:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: var(--darkGrey);
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 4.3rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.06rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--darkGrey);
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {  
+  h3 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin: 20px 0 10px;
+  }
 }

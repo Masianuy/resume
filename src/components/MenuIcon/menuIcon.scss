@@ -1,0 +1,35 @@
+.icon-menu {
+  position: absolute;
+  top: 35%;
+  right: 1rem;
+  background-color: var(--secondColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  width: auto!important;
+  border-radius: 7px;
+
+  & ul {
+    & li {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      & svg {
+        fill: var(--darkGrey);
+        &:hover {
+          fill: var(--bgColor);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {  
+  .icon-menu {
+    right: 0;
+    border-radius: 7px 0 0 7px;
+  }
+}

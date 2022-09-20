@@ -1,0 +1,37 @@
+header {
+  text-align: center;
+  border: 1px solid var(--mainColor);
+  padding: 1rem 3rem;
+
+  & h1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    & h1 {
+      font-size: 3.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    & h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 501px) {
+  header {
+    & h1 {
+      font-size: 2rem;
+    }
+  }
+}

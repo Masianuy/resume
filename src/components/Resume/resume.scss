@@ -1,0 +1,71 @@
+.resume {
+  &_education {
+    padding: 20px 0 0;
+
+    &-title {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      margin: 20px 0 20px;
+
+      & h4 {
+        margin-left: 20px;
+      }
+    }
+
+    &-list {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    &-item {
+      min-width: 300px;
+      width: 50%;
+      padding: 0 10px 20px 10px;
+      & img {
+        width: auto;
+        height: 50px;
+      }
+    }
+
+    &-years {
+      font-family: 'Lato', sans-serif;
+      font-size: 1.1rem;
+      line-height: 2rem;
+    }
+
+    &-university {
+      font-family: 'Lato', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 500;
+      line-height: 2rem;
+    }
+
+    &-disc {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+
+    &-inner {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      margin-bottom: 7px;
+      & p {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .resume {
+    &_education {
+      &-item {
+        width: 95%;
+      }
+    }
+  }
+}

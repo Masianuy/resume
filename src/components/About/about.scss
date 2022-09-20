@@ -1,0 +1,101 @@
+.about {
+  
+  &_content {
+    padding: 40px 9px;
+
+    & h3 {
+      & span {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.7rem;
+        font-weight: 500;
+      }
+    }
+
+    & p {
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+      margin-bottom: 5px;
+      text-align: justify;
+    }
+  }
+
+  &_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-left {
+      min-width: 200px;
+      width: 49%;
+    }
+
+    &-know{
+      display: flex;
+      flex-wrap: wrap;
+
+      & div {
+        max-width: 55px;
+        margin: 15px;
+      }
+    }
+
+    &-right {
+      min-width: 200px;
+      width: 49%;
+    }
+    
+    &-subtitle {
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 3rem;
+      margin-bottom: 15px;
+    }
+
+    &-disc {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-family: 'Lato', sans-serif;
+      line-height: 2.5rem;
+      font-weight: 500;
+      letter-spacing: 0.1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {  
+  .about {
+    &_content {
+      & h3 {
+        & span {
+          font-family: 'Lato', sans-serif;
+          font-size: 1.7rem;
+          font-weight: 500;
+        }
+      }
+      
+      & p {
+        padding-right: 15px;
+      }
+    }
+    
+    &_list {
+      &-subtitle {
+        margin: 20px 0 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .about {
+    &_list {
+      &-left {
+        width: 95%;
+      }
+      &-right {
+        width: 95%;
+      }
+    }
+  }
+}
