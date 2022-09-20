@@ -11,8 +11,8 @@ function MenuIcon() {
     <div  className='icon-menu'>
       <ul>
         <li>
-          <NavLink to='/'>
-            < HomeIcon />
+          <NavLink to='/resume'>
+            <HomeIcon />
           </NavLink>
         </li>
         <li>

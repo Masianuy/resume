@@ -11,7 +11,7 @@ function Menu() {
       </div>
       <ul className='menu_list'>
         <li>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/resume'>Home</NavLink>
         </li>
         <li>
           <NavLink to='about'>About</NavLink>
