@@ -11,7 +11,7 @@ import Univer3 from '../../images/univer3.png';
 function Resume() {
   return (
     <div>
-      <Header title="Resume" />
+      <Header title="Education" />
       <div className='resume'>
         <div className='resume_education'> 
           <div className='resume_education-title'>

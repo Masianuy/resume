@@ -3,9 +3,9 @@ export const TelegramIcon = () => {
     <svg xmlns="http://www.w3.org/2000/svg" style={{width: "35px", height: "35px"}} viewBox="0 0 333334 333334" shapeRendering="geometricPrecision" textRendering="geometricPrecision" imageRendering="optimizeQuality" fillRule="evenodd" clipRule="evenodd">
       <defs>
         <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="162482" y1="307276" x2="170852" y2="26057.5">
-          <stop offset="0" stop-color="#19a8dd"/>
-          <stop offset=".678" stop-color="#2ab2e2"/>
-          <stop offset="1" stop-color="#3cbde8"/>
+          <stop offset="0" stopColor="#19a8dd"/>
+          <stop offset=".678" stopColor="#2ab2e2"/>
+          <stop offset="1" stopColor="#3cbde8"/>
         </linearGradient>
       </defs>
       <circle cx="166667" cy="166667" r="166667" fill="url(#a)"/>

@@ -6,8 +6,7 @@
   --darkGrey: #1e1e1e;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Quicksand:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,500;1,900&family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Quicksand:wght@400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -57,6 +56,15 @@ img {
 
 .active {
   text-decoration: underline;
+  fill: var(--bgColor);
+}
+
+.active {
+  & svg {
+    & path {
+      fill: var(--bgColor);
+    }
+  }
 }
 
 @media screen and (max-width: 991px) {  

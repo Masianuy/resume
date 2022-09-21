@@ -8,10 +8,10 @@ import { ContactIcon } from '../../images/ContactIcon';
 
 function MenuIcon() {
   return (
-    <div  className='icon-menu'>
+    <div className='icon-menu'>
       <ul>
         <li>
-          <NavLink to='/'>
+          <NavLink end to='/resume'>
             <HomeIcon />
           </NavLink>
         </li>
