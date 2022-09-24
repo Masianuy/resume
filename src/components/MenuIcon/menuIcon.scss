@@ -33,3 +33,24 @@
     border-radius: 7px 0 0 7px;
   }
 }
+
+@media screen and (max-width: 441px) {  
+  .icon-menu {
+    top: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px 0;
+
+    & ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+
+      & li {
+        margin: 0;
+      }
+    }
+  }
+}
