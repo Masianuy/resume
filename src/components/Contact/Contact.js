@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 import './contact.scss';
 import { NewEmail } from '../../images/NewEmail';
@@ -20,7 +19,7 @@ function Contact() {
               <NewEmail />
             </div>
             <div>
-              <Link to="mailto:Masianuy91@gmail.com">Masianuy91@gmail.com</Link>
+              <a href="mailto:Masianuy91@gmail.com">Masianuy91@gmail.com</a>
             </div>
           </div>
           <div className='contact_box'>
@@ -28,7 +27,7 @@ function Contact() {
               <CallMe />
             </div>
             <div>
-              <Link to="tel:+380961776689">+380961776689</Link>
+              <a href="tel:+380961776689">+380961776689</a>
             </div>
           </div>
         </div>
